@@ -1,4 +1,4 @@
-FROM openjdk:11
+FROM openjdk:latest
 COPY . /app
 WORKDIR /app
 
