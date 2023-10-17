@@ -1,3 +1,5 @@
 FROM openjdk:11
+COPY . /app
+WORKDIR /app
 
-ENTRYPOINT ["java","Start"]
+CMD ["java", "Start"]
